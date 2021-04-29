@@ -1,0 +1,8 @@
+p { font-family: serif;
+    letter-spacing: 0,5;
+    font-size: medium;
+    color:darkslategray;}
+
+a:link { color: orange;}
+a:hover{ color:hotpink}
+a:visited {color: brown}
