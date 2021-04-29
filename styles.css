@@ -1,0 +1,46 @@
+p{ font-size: 24px;
+      font-family: Arial, sans-serif;
+      word-spacing: 10%;
+      color:purple;}
+
+
+p{ font-family: serif;
+    letter-spacing: 0,5;
+    font-size: medium;
+    color:darkslategray;}
+
+a:link { color: orange;}
+a:hover{ color:hotpink}
+a:visited {color: brown}
+body {width: 90%;
+         margin-top: 2cm;
+         margin-bottom: 2cm;
+         margin-left: 2cm;
+         margin-right: 2cm;
+         background-image: url("/media/css/chat.png");
+         background-repeat: no-repeat;
+         background-size: cover;
+         background: -webkit-radial-gradient(rgb(129, 173, 213), rgb(93, 104, 10));
+         background: radial-gradient(rgb(129, 173, 213), rgb(93, 104, 10));}
+blockquote {margin-left: 25%;
+               font-size: 160%;
+               border-spacing: 30px;
+               background-color: gray;
+               padding-left: firebrick 3px;
+               width: 50%;
+               padding: 30px;}
+   q {border-bottom: 80px;
+      border-top: 80px;
+      font-style: italic;}
+h1:first-child {background-color: yellow;}
+.villagers {color: blueviolet;} 
+.farmer{color: lightgreen;}
+body.good{text-transform: uppercase;color: green;}
+body.bad {text-transform: uppercase;color: red;}
+tr.grey{background-color: grey;}
+tr.white{background-color: honeydew;}
+li.Duimop {background-image: url(/media/css/bien.png); padding-right: 3px;}
+li.Duimlaag {background-image: url(/media/css/mal.png); padding-right:3px;}
+li.Chat {background-image: url(/media/css/chat.png); padding-right: 3px;}
+img {justify-content: flex-end}
+body {font-family: 'Open Sans', sans-serif;}
