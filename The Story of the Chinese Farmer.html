@@ -37,23 +37,27 @@ a:visited {color: brown}
                font-size: 160%;
                border-spacing: 30px;
                background-color: gray;
-               padding-left: firebrick: 3px;
+               padding-left: firebrick; 3px;
                width: 50%;
                padding: 30px;}
    q {border-bottom: 80px;
       border-top: 80px;
-      font-style: italic;
-   }
-  
+      font-style: italic;}
+h1:first-child {background-color: yellow;}
 .villagers {color: blueviolet;} 
 .farmer{color: lightgreen;}
-.good {}
-.bad {} 
+body.good{text-transform: uppercase;color: green;}
+.bad {text-transform: uppercase;color: red;}
+table.grey {background-color: grey;}
+table.white {background-color: honeydew;}
+}
+
 </style>
 <p>
   
    <header><h1>The story of the Chinese Farmer</h1></header>
    <h4>
+      <div class="content">
       <p><blockquote>
          <q>
          Is it a good thing? 
@@ -136,15 +140,15 @@ a:visited {color: brown}
    <p><h5>Here is this dialog in the form of a table</h5></p>
    <table>
       <caption>
-      <tr>
+      <div class="grey"><tr>
               <th scope="col">Event</th>
               <th scope="col">Good or Bad?</th>
-             
+      </div>       
       </tr></caption>
-      <tr>
+      <tr><div class="white">
               <td>Lose a horse</td>
               <td><em>Maybe</em></td>
-      
+      </div>
       </tr>
    </tr>
    <tr>
@@ -173,7 +177,7 @@ a:visited {color: brown}
    <footer><h6>Just Another Company 2017. All right reserved. Adapted from this article: https://wellsbaum.blog/2018/01/27/alan-watts-the-story-of-the-chinese-farmer/
 </h6></footer> 
 </p>
-
+</div>
 </body>
 </html>
                
