@@ -45,3 +45,5 @@ li.Duimlaag {background-image: url(/media/css/mal.png); padding-right:3px;}
 li.Chat {background-image: url(/media/css/chat.png); padding-right: 3px;}
 img {justify-content: flex-end}
 body {font-family: 'Open Sans', sans-serif;}
+.flex-container{display: flex:;}
+.image1 {display:flexbox}
